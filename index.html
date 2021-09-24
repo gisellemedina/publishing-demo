@@ -1,60 +1,98 @@
 <!DOCTYPE html>
-
-<h1>Five Largest Protests in U.S. History </h1>
+<html>
 
 <body>
-
-	<img src= "https://media-cldnry.s-nbcnews.com/image/upload/newscms/2020_23/3382051/200606-washington-demonstration-al-1549.jpg" class="center">
-
-	<p> 
-		The tradition of protests that demand progressive change in the United States continue.
-	</p>
 	
-	<p> 
-		Here are the country's top five most recent protests in terms of attendance: 
-	</p>
+	<h1>Five Largest Protests in U.S. History</h1>
 
-	<ul style="list-style-type:square">
-		<ol>
-			<li> The 
-				<a href="https://en.wikipedia.org/wiki/George_Floyd_protests"> George Floyd protests </a> 
-				in 2020, had approximately 26 million protestors </li>
-			<li> The 
-				<a href="https://en.wikipedia.org/wiki/2017_Women%27s_March"> 2017 Women's March </a>
-				drew about 5.6 million people nationwide </li>
-			<li> The student led 
-				<a href="https://en.wikipedia.org/wiki/March_for_Our_Lives"> March for Our Lives </a>
-				in 2018, had a turnout of around 2 million protestors in fight against gun control </li>
-			<li> The 
-				<a href="https://en.wikipedia.org/wiki/2018_Women%27s_March"> 2018 Women's March </a>
-				drew about 1.5 million protestors </li>
-			<li> The 
-				<a href="https://en.wikipedia.org/wiki/March_for_Science"> March for Science </a>
-				on Earth Day in 2017, had approximately 1 million protestors </li> 
-		</ol>
-	</ul>
+	<figure>
+		<img src="protest picture.jpg" alt="Image Not Found :/" class="protest-picture">
+
+		<figcaption>George Flyod protestors walk along Pennsylvania Avenue in Washington. Photo obtained from NBCNews, Andrew Harnik / AP </figcaption>
+	</figure>
+
+	<div>
+		<p> 
+			The tradition of protests that demand progressive change in the United States continue.
+		</p>
+	</div>
+	
+	<div class="list">
+		<p> 
+			Here are the country's top five most recent protests in terms of attendance: 
+		</p>
+
+		<ul style="list-style-type:square">
+			<ol>
+				<li> The 
+					<a href="https://en.wikipedia.org/wiki/George_Floyd_protests"> George Floyd protests </a> 
+					in 2020, had approximately 26 million protestors </li>
+				<li> The 
+					<a href="https://en.wikipedia.org/wiki/2017_Women%27s_March"> 2017 Women's March </a>
+					drew about 5.6 million people nationwide </li>
+				<li> The student led 
+					<a href="https://en.wikipedia.org/wiki/March_for_Our_Lives"> March for Our Lives </a>
+					in 2018, had a turnout of around 2 million protestors in fight against gun control </li>
+				<li> The 
+					<a href="https://en.wikipedia.org/wiki/2018_Women%27s_March"> 2018 Women's March </a>
+					drew about 1.5 million protestors </li>
+				<li> The 
+					<a href="https://en.wikipedia.org/wiki/March_for_Science"> March for Science </a>
+					on Earth Day in 2017, had approximately 1 million protestors </li> 
+			</ol>
+		</ul>
+	</div>
 
 </body>
 
-<h2> Compiled from Wikipedia </h2>
+<footer> Compiled from Wikipedia </footer>
 
 <!-- 
 	CSS/STYLING BELOW
 -->
 
+<link href="http://fonts.cdnfonts.com/css/georgia" rel="stylesheet" class="Gerorgia">
+
 	<style>
-		h2 {
-			font-size: 12px;
+
+		h1 {
+			text-transform: uppercase;
+			font-family: Georgia, serif;
+			font-style:  italic;
+			color: #756bb1;
 		}
 
-		.center {
-			display: block;
+		.protest-picture {
+			width: 75%;
+			display: flex;
+
+		}
+
+		figcaption {
+			color: grey;
 			margin-left: auto;
 			margin-right: auto;
-			width: 75%;
+			margin: auto;
+			font-style:  italic;
+			font-size: 14px;
 		}
+
+		.list {
+			background-color: #bcbddc;
+			border-color: #756bb1;
+			border-width: 5px;
+			border-style: solid;
+			width: 700px;
+			height: 200px;
+			padding: 10px;
+		}
+
+		footer {
+			color: grey;
+			font-style: bold;
+			font-size: 14px;
+		}
+
 	</style>
 
-
-
-
+</html>
